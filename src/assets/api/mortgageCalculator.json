@@ -1,0 +1,25 @@
+{
+  "layoutComponentName": "PlainLayoutComponent",
+  "formName": "mortgageCalculator",
+  "dataSource": {
+    "type": "GraphQL",
+    "query": "",
+    "mutation": ""
+  },
+  "pages": [
+    {
+      "structure": "12",
+      "template": {
+        "title": "header",
+        "body": {
+          "gridTemplateColumns": "1fr 1fr",
+          "gridTemplateRows": "1fr 1fr 1fr",
+          "gridTemplateAreas": "\"ID1_2 ID1_2\" \"ID3_1 ID3_2\" \"ID4_1 ID4_1\""
+        },
+        "reRender": false
+      },
+      "sections": [],
+      "pageId": "f83c2ca3-1259-aa95-e817-61321a04713d"
+    }
+  ]
+}

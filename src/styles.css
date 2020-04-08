@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+    grid-template-areas: "left" "midldle" "right";
+}
+
+.left { grid-area: left; }
+.middle { grid-area: middle; }
+.right { grid-area: right; }
